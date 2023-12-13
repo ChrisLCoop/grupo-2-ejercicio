@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.Caja-Full{
+    width: 875px;
+    height: 900px;
+    
+}
+
+.Titulo{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.Titulo h3{
+    font-size: 26px;
+    font-weight: lighter;
+    letter-spacing: 3px;
+
+}
+
+
+.Titulo h5{
+    margin-right: 5px;
+    padding-top: 8px;
+    font-size: 12px;
+    padding: 8px 20px;
+    border: solid 1px black;
+
+}
+
+
+
+.Container{
+    width: 54.3rem;
+    height: 50rem;
+    display: grid;
+    grid-template-columns: 9rem 9rem 9rem 9rem;
+    grid-template-rows: 18.7rem 18.7rem;
+    gap: 4.9rem;
+    
+    
+    
+    
+  
+}
+
+.Container img{
+    width: 140%;  
+}
+
+.caja1 h3{
+    position: absolute;
+    bottom: 55%;
+    left: 28px;
+    color: white;
+}
+
+.caja2 h3{
+    position: absolute;
+    bottom: 55%;
+    left: 250px;
+    color: white;
+}
+
+.caja3 h3{
+    position: absolute;
+    bottom: 55%;
+    left: 473px;
+    color: white;
+}
+
+.caja4 h3{
+    position: absolute;
+    bottom: 55%;
+    left: 700px;
+    color: white;
+}
+
+.caja5 h3{
+    position: absolute;
+    bottom: 11%;
+    left: 25px;
+    color: white;
+}
+
+.caja6 h3{
+    position: absolute;
+    bottom: 11%;
+    left: 250px;
+    color: white;
+}
+
+.caja7 h3{
+    position: absolute;
+    bottom: 11%;
+    left: 468px;
+    color: white;
+}
+
+.caja8 h3{
+    position: absolute;
+    bottom: 11%;
+    left: 699px;
+    color: white;
+}
+
