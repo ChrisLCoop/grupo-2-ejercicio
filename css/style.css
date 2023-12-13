@@ -87,3 +87,121 @@ header{
     padding: 1rem 0;
     margin-left: 1.5rem;
 }
+
+
+/*----*/
+
+.intro{
+    margin: auto;
+    width: 80%;
+    padding-top: 5rem;
+}
+
+.cd-inf{
+    position: relative;
+}
+
+.cd-inf img{
+    width: 75%;
+}
+
+.content-inf-vr{
+    position: absolute;
+    top: 9rem;
+    left: 28rem;
+    width: 45%;
+    background-color: #fff;
+    padding: 3.5rem;
+}
+
+.content-inf-vr h2{
+    font-size: 1.6rem;
+    padding-bottom: 0.5rem;
+}
+
+.content-inf-vr p{
+    font-size: 0.8rem;
+    color: rgba(72, 72, 72, 0.718);
+}
+
+/*----*/
+
+.content-cards{
+    width: 80%;
+    margin: auto;
+    padding-top: 4rem;
+}
+
+.content-titulo-cc{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content-titulo-cc h2{
+    
+}
+
+.content-titulo-cc a{
+    text-decoration: none;
+    color: black;
+    border: solid black;
+    padding: 0.3rem 2rem;
+}
+
+.cards{
+    padding-top: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 22rem 22rem;
+    gap: 1rem;
+}
+
+.card{
+    
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: end;
+    color: #fff;
+    justify-content: center;
+}
+
+.ph-1{
+    background-image: url(/img/desktop/image-deep-earth.jpg);
+}
+
+.ph-2{
+    background-image: url(/img/desktop/image-night-arcade.jpg);
+}
+
+.ph-3{
+    background-image: url(/img/desktop/image-soccer-team.jpg);
+}
+
+.ph-4{
+    background-image: url(/img/desktop/image-grid.jpg);
+}
+
+.ph-5{
+    background-image: url(/img/desktop/image-from-above.jpg);
+}
+
+.ph-6{
+    background-image: url(/img/desktop/image-pocket-borealis.jpg);
+}
+
+.ph-7{
+    background-image: url(/img/desktop/image-curiosity.jpg);
+}
+
+.ph-8{
+    background-image: url(/img/desktop/image-fisheye.jpg);
+}
+
+.card h3{
+    padding-bottom: 1rem;
+    font-size: 1.7rem;
+    margin-left: 1rem;
+}
+
