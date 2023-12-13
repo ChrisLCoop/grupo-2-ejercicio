@@ -14,7 +14,9 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    
 }
+    
 .seccion2{
     position: relative;
     max-width: 400px;
@@ -26,7 +28,11 @@
     align-items: center;
     padding: 2rem 3rem;
     
-    
+}
+
+form{
+    backdrop-filter: blur(0.4rem);
+    -webkit-backdrop-filter: blur(0.4rem);
 }
 
 h1{
@@ -41,11 +47,14 @@ h1{
     border-bottom: 2px solid #fff;
 }
 
+.inputbox span{
+    color: #a7a4a4;
+}
 .inputbox label{
     position: absolute;
     top: 50%;
-    left: 5px;
-    transform: translateX(-50%);
+    left: 3px;
+    transform: translateX(-40%);
     color: #fff;
     font-size: 1rem;
     pointer-events: none;
