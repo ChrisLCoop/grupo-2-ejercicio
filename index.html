@@ -7,13 +7,13 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="content-wrap">
+    <div class="content-wrap" id="principal">
         <header>
             <div class="content-header">
                 <div class="nv-1">
                     <a id="logo" class="logo" href="">loopstudios</a>
-                    <nav>
-                        <ul>
+                    <nav id="nav-a" class="nav-envolvente-2">
+                        <ul >
                             <li><a href="">About</a></li>
                             <li><a href="">Careers</a></li>
                             <li><a href="">Events</a></li>
@@ -22,6 +22,21 @@
                             <li><a href="">Login</a></li>
                         </ul>
                     </nav>
+                    <div class="menu" id="mostrar-menu">
+                        <nav id="nav" class="nav-envolvente">
+                            <ul >
+                                <li><a href="">About</a></li>
+                                <li><a href="">Careers</a></li>
+                                <li><a href="">Events</a></li>
+                                <li><a href="">Products</a></li>
+                                <li><a href="">Support</a></li>
+                                <li><a href="">Login</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div id="icon-menu">
+                        <img id="hbgr" src="/img/icon-hamburger.svg" alt="">
+                    </div>
                 </div>
                 <div class="nv-2">
                     <div class="content-info">
@@ -74,7 +89,10 @@
                             <h3>MAKE IT FISHEYE</h3>
                         </div>
                     </div>
-                    <div id="inferior" class="content-titulo-cc">
+                    <div id="inferior" class="content-titulo-cc  ">
+                        <div class="cont-flecha-inf">
+                            <a href="#principal"><img src="/img/flecha.png" alt=""></a>
+                        </div>
                         <a id="alowed" href="">SEE ALL</a>
                     </div>
                 </div>
@@ -107,6 +125,7 @@
                 </div>
             </div>
         </footer>
+        <script src="/js/nav.js"></script>
     </div>
 </body>
 </html>
